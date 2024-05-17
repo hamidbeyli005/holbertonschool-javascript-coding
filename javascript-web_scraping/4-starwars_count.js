@@ -1,5 +1,7 @@
 #!/usr/bin/node
 
+/* eslint-disable */
+
 const request = require('request');
 
 const api = `${process.argv[2]}`;
