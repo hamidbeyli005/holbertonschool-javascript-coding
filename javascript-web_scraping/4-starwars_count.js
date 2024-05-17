@@ -13,5 +13,5 @@ request(api, (err, res, body) => {
   for (const x in data) {
     char.push(...data[x]['characters'].filter((str) => str.includes('/18/')));
   }
-  console.log(characters.length);
+  console.log(char.length);
 });
