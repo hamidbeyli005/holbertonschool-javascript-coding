@@ -11,7 +11,7 @@ request(api, (err, res, body) => {
   const data = JSON.parse(body).results;
   const char = [];
   for (const x in data) {
-    char.push(...data[x]['char'].filter((str) => str.includes('/18/')));
+    char.push(...data[x]['characters'].filter((str) => str.includes('/18/')));
   }
   console.log(characters.length);
 });
