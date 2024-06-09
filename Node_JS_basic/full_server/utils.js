@@ -50,6 +50,7 @@ const readDatabase = (dataPath) => new Promise((resolve, reject) => {
   }
 });
 
+
 // Export the readDatabase function as the default export
 export default readDatabase;
 // Export the readDatabase function for CommonJS modules compatibility
